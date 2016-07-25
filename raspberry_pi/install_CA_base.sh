@@ -6,7 +6,7 @@ apt-get update
 
 # Set up text editor
 apt-get install vim
-# cp vimrc ~/.vimrc
+cp vimrc ~/.vimrc
 
 # Install basic dev packages
 apt-get install python-dev=2.7.9-1
