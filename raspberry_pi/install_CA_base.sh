@@ -18,3 +18,6 @@ pip install -I pymavlink==2.0.5 monotonic==0.6 pyserial==3.1.1
 # Install aircraft communication packages
 pip install -I dronekit==2.8.0 mavproxy==1.5.1
 
+# Disable OS use of serial console and enable companion computer use
+raspi-config noint do_serial 1
+sed -Ei 's/enable_uart=0/enable_uart=1/g' /boot/config.txt
