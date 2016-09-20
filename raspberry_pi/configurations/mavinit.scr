@@ -1,0 +1,6 @@
+output add 127.0.0.1:14550
+output add 192.168.1.100
+output add 192.168.1.101
+output add 192.168.1.102
+output add 192.168.1.103
+output add 192.168.1.104
