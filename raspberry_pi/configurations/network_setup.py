@@ -22,6 +22,18 @@ with open('/etc/wpa_supplicant/wpa_supplicant.conf', 'a') as wpa:
             '\tssid="Frog"\n' + \
             '\tpsk=ce351656a00bd9f9de28b309821f4190b2625f2b43f6eba1c7a5738e62ece227\n' + \
             '\tkey_mgmt=WPA-PSK\n' + \
+        '}\n' + \
+        'network={\n' + \
+            '\tpriority=2\n' + \
+            '\tssid="Frog2"\n' + \
+            '\tpsk=74a135a8394c439fcdf0f04f10381dd1bcc1becf07c84ab2836537cbf6bed582\n' + \
+            '\tkey_mgmt=WPA-PSK\n' + \
+        '}\n' + \
+        'network={\n' + \
+            '\tpriority=3\n' + \
+            '\tssid="Toad"\n' + \
+            '\tpsk=d138bdf4841084f97b15bcb80a417f76bf833077d9b6b9040cfc2bc69fcbb683\n' + \
+            '\tkey_mgmt=WPA-PSK\n' + \
         '}\n')
 
 
