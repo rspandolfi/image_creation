@@ -34,7 +34,7 @@ with open('/etc/wpa_supplicant/wpa_supplicant.conf', 'a') as wpa:
             '\tssid="Toad"\n' + \
             '\tpsk=d138bdf4841084f97b15bcb80a417f76bf833077d9b6b9040cfc2bc69fcbb683\n' + \
             '\tkey_mgmt=WPA-PSK\n' + \
-        '}\n')
+        '}\n' + \
         'network={\n' + \
             '\tpriority=2\n' + \
             '\tssid="Field_Frog2"\n' + \
