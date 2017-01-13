@@ -35,5 +35,17 @@ with open('/etc/wpa_supplicant/wpa_supplicant.conf', 'a') as wpa:
             '\tpsk=d138bdf4841084f97b15bcb80a417f76bf833077d9b6b9040cfc2bc69fcbb683\n' + \
             '\tkey_mgmt=WPA-PSK\n' + \
         '}\n')
+        'network={\n' + \
+            '\tpriority=2\n' + \
+            '\tssid="Field_Frog2"\n' + \
+            '\tpsk=1552043464bbf9a232ce7dcc18dc8b6f8ef5e890742ac550828589071c8fed68\n' + \
+            '\tkey_mgmt=WPA-PSK\n' + \
+        '}\n' + \
+        'network={\n' + \
+            '\tpriority=3\n' + \
+            '\tssid="Field_Toad"\n' + \
+            '\tpsk=0e8f0c524dc73882c39139e49296cd6c67f3693d1c31c11ec54803c225c98f03\n' + \
+            '\tkey_mgmt=WPA-PSK\n' + \
+        '}\n')
 
 
